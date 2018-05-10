@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "20297865036",
+    "firebase_url": "https://la-rz-5b5e1.firebaseio.com",
+    "project_id": "la-rz-5b5e1",
+    "storage_bucket": "la-rz-5b5e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20297865036:android:69095bed2dd7f5d8",
+        "android_client_info": {
+          "package_name": "com.GrupoZonica.LaRZ"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20297865036-lh6vvrsjnottcr2ao55tfn9sni5dqb5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.GrupoZonica.LaRZ",
+            "certificate_hash": "d62d4d002999f93b84f71e5c3151413eb9192e78"
+          }
+        },
+        {
+          "client_id": "20297865036-vg26ueua2ljsl7shm4mgup4rqf01pdvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiIMLvRhTBdbOSJJMJwaVF5k3hzCHeyn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20297865036-vg26ueua2ljsl7shm4mgup4rqf01pdvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "20297865036-4pnrte49ha6sjqh8v25i8j9nfqls7803.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.GrupoZonica.LaRZ",
+                "app_store_id": "1326526975"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Firebase.Analytics;
 
 namespace LaRZ.Droid
 {
@@ -13,6 +14,9 @@ namespace LaRZ.Droid
 
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+
+			var firebase = FirebaseAnalytics.GetInstance(this);
+			firebase.LogEvent(FirebaseAnalytics.Event.AppOpen, null);
 
             base.OnCreate(bundle);
 
