@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace LaRZ.Helpers
@@ -31,7 +32,7 @@ namespace LaRZ.Helpers
                 name = await response.Content.ReadAsStringAsync();
             }
 
-            return name.Trim();
+            return WebUtility.HtmlDecode(name.Trim());
         }
     }
 }

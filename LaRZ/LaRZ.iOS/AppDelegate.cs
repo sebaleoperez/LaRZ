@@ -12,7 +12,6 @@ namespace LaRZ.iOS
             global::Xamarin.Forms.Forms.Init();
 
 			Firebase.Core.App.Configure();
-			Analytics.LogEvent(EventNamesConstants.AppOpen, null);
 
             LoadApplication(new App());
 

@@ -15,7 +15,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <Image Grid.Column="0" Grid.Row="0" Margin="20" Source="logo.png" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" />
+        <Image Grid.Column="0" Grid.Row="0" Margin="20" Source="logo_nuevo.png" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" />
 
         <Grid Grid.Column="0" Grid.Row="1" Margin="0,20,0,20">
             <Grid.RowDefinitions>
